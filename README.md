@@ -11,7 +11,9 @@ The first step in this project was to establish a resource group in Azure, which
 
 ## Key Decisions:
 - Naming: I chose a descriptive name for the resource group to ensure clarity when managing multiple resources: (SatiahCorpRG)
-- Region Selection: I carefully selected the region based on the class walkthrough, ensuring that all subsequent resources would be created in this same region. This decision was crucial for minimizing latency and maximizing availability, particularly      important for any time-sensitive or mission-critical applications SatiahCorp might deploy: (Canada) Canada Central
+- Region Selection: I carefully selected the region based on the class walkthrough, ensuring that all subsequent resources would be created in this same region.
+
+This decision was crucial for minimizing latency and maximizing availability, particularly      important for any time-sensitive or mission-critical applications SatiahCorp might deploy: (Canada) Canada Central
 
 ![RG2](https://github.com/user-attachments/assets/1b8ed564-57e9-4b57-b617-affd83d147e5)
 
