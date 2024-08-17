@@ -39,7 +39,7 @@ After finalizing the network settings, I clicked on Create to deploy the VNet. T
 After setting up the VNet, I revisited the resource group to verify that the VNet was listed as a resource. This confirmed that everything was correctly configured and ready for the next phase of the project. With the resource group and VNet in place, I now have a scalable and secure environment for deploying additional cloud infrastructure, such as virtual machines, databases, and more.
 
 # Technologies
-Azure Virtual Network(VNet)
+<b> Azure Virtual Network(VNet) </b>
 Azure Virtual Machines(Windows and Linux OS VM)
 Network Security Group(NSG)
 Remote Desktop Protocol(RDP) for Windows Remote access control
