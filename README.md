@@ -38,5 +38,12 @@ After finalizing the network settings, I clicked on Create to deploy the VNet. T
 # 3. Final Verification and Next Steps
 After setting up the VNet, I revisited the resource group to verify that the VNet was listed as a resource. This confirmed that everything was correctly configured and ready for the next phase of the project. With the resource group and VNet in place, I now have a scalable and secure environment for deploying additional cloud infrastructure, such as virtual machines, databases, and more.
 
+# Technologies
+Azure Virtual Network(VNet)
+Azure Virtual Machines(Windows and Linux OS VM)
+Network Security Group(NSG)
+Remote Desktop Protocol(RDP) for Windows Remote access control
+Command Line Interface/SecureShell(SSH) for Linux Remote Server Management
+
 # Conclusion
 This project was a vital step in setting up a cloud environment using Microsoft Azure. By creating a well-structured resource group and VNet, I laid the groundwork for a secure, scalable, and efficient cloud infrastructure. The decisions made during this process, especially regarding region selection and security settings, will ensure that SatiahCorp's resources are both accessible and protected as the project evolves.
