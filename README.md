@@ -1,14 +1,16 @@
 # AZURE VIRTUAL NETWORK SETUP
 # Project Overview
-In this project, I took on the challenge of setting up a cloud network infrastructure using Microsoft Azure. The goal was to create a foundational environment where the Red Team could securely deploy, manage, and scale their cloud resources. This involved creating a resource group and a virtual network (VNet) to support various services and applications that would be developed later.
+In this project, I took on the challenge of setting up a cloud network infrastructure using Microsoft Azure. The goal was to create a foundational environment where SatiahCorp could securely deploy, manage, and scale their cloud resources. This involved creating a resource group and a virtual network (VNet) to support various services and applications that would be developed later.
 
 # Detailed Steps
 # 1. Creating the Resource Group
+![RG1](https://github.com/user-attachments/assets/efd86d59-2a4b-4935-94fc-4d3a37385f3f)
+
 The first step in this project was to establish a resource group in Azure, which serves as a container for all related resources. I accessed the Azure portal and searched for "resource" to find the resource group options. By clicking on + Add or Create resource group, I initiated the setup.
 
 Key Decisions:
-Naming: I chose a descriptive name for the resource group to ensure clarity when managing multiple resources.
-Region Selection: I carefully selected the region based on the class walkthrough, ensuring that all subsequent resources would be created in this same region. This decision was crucial for minimizing latency and maximizing availability, particularly important for any time-sensitive or mission-critical applications the Red Team might deploy.
+Naming: I chose a descriptive name for the resource group to ensure clarity when managing multiple resources:(SatiahCorpRG)
+Region Selection: I carefully selected the region based on the class walkthrough, ensuring that all subsequent resources would be created in this same region. This decision was crucial for minimizing latency and maximizing availability, particularly important for any time-sensitive or mission-critical applications SatiahCorp might deploy: (Canada) Canada Central
 Once the resource group was created, I confirmed its setup by navigating to it through the Azure portal.
 
 2. Setting Up the Virtual Network (VNet)
