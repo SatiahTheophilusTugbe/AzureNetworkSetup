@@ -9,9 +9,9 @@ The first step in this project was to establish a resource group in Azure, which
 
 ![RG1](https://github.com/user-attachments/assets/c2ce652e-8a11-4564-842b-5aba565d727b)
 
-Key Decisions:
-Naming: I chose a descriptive name for the resource group to ensure clarity when managing multiple resources: (SatiahCorpRG)
-Region Selection: I carefully selected the region based on the class walkthrough, ensuring that all subsequent resources would be created in this same region. This decision was crucial for minimizing latency and maximizing availability, particularly important for any time-sensitive or mission-critical applications SatiahCorp might deploy: (Canada) Canada Central
+## Key Decisions:
+- Naming: I chose a descriptive name for the resource group to ensure clarity when managing multiple resources: (SatiahCorpRG)
+- Region Selection: I carefully selected the region based on the class walkthrough, ensuring that all subsequent resources would be created in this same region. This decision was crucial for minimizing latency and maximizing availability, particularly      important for any time-sensitive or mission-critical applications SatiahCorp might deploy: (Canada) Canada Central
 
 ![RG2](https://github.com/user-attachments/assets/1b8ed564-57e9-4b57-b617-affd83d147e5)
 
@@ -24,10 +24,10 @@ With the resource group in place, the next task was to create a virtual network 
 
 ![VirNet1](https://github.com/user-attachments/assets/5a60e0d3-8287-46c4-b108-3c793ea8e2fc)
 
-Configuration Steps:
-Network Settings: I used Azure’s default IP address settings, ensuring that the network had enough capacity to support both current and future SatiahCorp operations.
-Security Settings: While setting up the VNet, I opted not to enable DDoS Protection Standard to avoid unnecessary costs, considering that the focus was on building a robust yet cost-effective infrastructure.
-Region Alignment: I ensured that the VNet was configured in the same region as the resource group, maintaining consistency across the setup for optimal performance.
+## Configuration Steps:
+- Network Settings: I used Azure’s default IP address settings, ensuring that the network had enough capacity to support both current and future SatiahCorp operations.
+- Security Settings: While setting up the VNet, I opted not to enable DDoS Protection Standard to avoid unnecessary costs, considering that the focus was on building a robust yet cost-effective infrastructure.
+- Region Alignment: I ensured that the VNet was configured in the same region as the resource group, maintaining consistency across the setup for optimal performance.
 
 ![VirNet2](https://github.com/user-attachments/assets/5ade8c3a-38a2-4e9f-a878-9e0d259d6852)
 
