@@ -4,16 +4,19 @@ In this project, I took on the challenge of setting up a cloud network infrastru
 
 # Detailed Steps
 # 1. Creating the Resource Group
-![RG1](https://github.com/user-attachments/assets/efd86d59-2a4b-4935-94fc-4d3a37385f3f)
 
 The first step in this project was to establish a resource group in Azure, which serves as a container for all related resources. I accessed the Azure portal and searched for "resource" to find the resource group options. By clicking on + Add or Create resource group, I initiated the setup.
+![RG1](https://github.com/user-attachments/assets/c2ce652e-8a11-4564-842b-5aba565d727b)
 
 Key Decisions:
 Naming: I chose a descriptive name for the resource group to ensure clarity when managing multiple resources:(SatiahCorpRG)
 Region Selection: I carefully selected the region based on the class walkthrough, ensuring that all subsequent resources would be created in this same region. This decision was crucial for minimizing latency and maximizing availability, particularly important for any time-sensitive or mission-critical applications SatiahCorp might deploy: (Canada) Canada Central
-Once the resource group was created, I confirmed its setup by navigating to it through the Azure portal.
+![RG2](https://github.com/user-attachments/assets/1b8ed564-57e9-4b57-b617-affd83d147e5)
 
-2. Setting Up the Virtual Network (VNet)
+Once the resource group was created, I confirmed its setup by navigating to it through the Azure portal.
+![RG3](https://github.com/user-attachments/assets/e70add16-606b-4abf-83db-7bfb98770703)
+
+# 2. Setting Up the Virtual Network (VNet)
 With the resource group in place, the next task was to create a virtual network (VNet). This network would act as the backbone for all cloud services, allowing for secure communication between various resources.
 
 Configuration Steps:
