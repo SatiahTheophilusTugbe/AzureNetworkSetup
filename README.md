@@ -2,8 +2,8 @@
 # Project Overview
 In this project, I took on the challenge of setting up a cloud network infrastructure using Microsoft Azure. The goal was to create a foundational environment where the Red Team could securely deploy, manage, and scale their cloud resources. This involved creating a resource group and a virtual network (VNet) to support various services and applications that would be developed later.
 
-Detailed Steps
-1. Creating the Resource Group
+# Detailed Steps
+# 1. Creating the Resource Group
 The first step in this project was to establish a resource group in Azure, which serves as a container for all related resources. I accessed the Azure portal and searched for "resource" to find the resource group options. By clicking on + Add or Create resource group, I initiated the setup.
 
 Key Decisions:
